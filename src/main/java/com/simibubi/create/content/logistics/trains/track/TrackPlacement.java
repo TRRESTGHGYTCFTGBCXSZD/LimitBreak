@@ -218,7 +218,7 @@ public class TrackPlacement {
 					if (!Mth.equal(ascend, 0))
 						//LimitBreak return info.withMessage("ascending_s_curve");
 
-					double targetT = u <= 1 ? 3 : u * 2;
+					//LimitBreak double targetT = u <= 1 ? 3 : u * 2;
 
 					if (t < targetT)
 						//LimitBreak return info.withMessage("too_sharp");
