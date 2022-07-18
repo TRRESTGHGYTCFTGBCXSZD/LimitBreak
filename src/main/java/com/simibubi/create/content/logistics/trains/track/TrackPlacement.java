@@ -220,15 +220,15 @@ public class TrackPlacement {
 
 					//LimitBreak double targetT = u <= 1 ? 3 : u * 2;
 
-					if (t < targetT)
+					//LimitBreak if (t < targetT)
 						//LimitBreak return info.withMessage("too_sharp");
 
 					// This is for standardising s curve sizes
-					if (t > targetT) {
+					//LimitBreak if (t > targetT) {
 						int correction = (int) ((t - targetT) / axis1.length());
 						info.end1Extent = maximiseTurn ? 0 : correction / 2 + (correction % 2);
 						info.end2Extent = maximiseTurn ? 0 : correction / 2;
-					}
+					//LimitBreak }
 				}
 			}
 		}
