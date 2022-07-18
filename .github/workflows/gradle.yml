@@ -23,5 +23,5 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: 아 니미 ♡♡
-      run: ./gradlew deploy
+      run: ./gradlew build
     #- name: ♡♡을 만들어 주갰다
